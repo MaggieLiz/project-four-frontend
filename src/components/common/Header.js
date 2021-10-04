@@ -22,6 +22,7 @@ function Header() {
   const logOut = () => {
     removeToken()
     history.push('/')
+    location.reload()
   }
 
   return (
