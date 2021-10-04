@@ -1,10 +1,11 @@
 import React from 'react'
 import { Container, Nav, Navbar, Button } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
-import { useHistory } from 'react-router-dom'
+import { useHistory, useLocation } from 'react-router-dom'
 import { isAuthenticated, removeToken } from '../lib/auth'
 
 function Header() {
+  useLocation()
   const isAuth = isAuthenticated()
   // const [isOpen, setIsOpen] = React.useState(false)
   // const { pathname } = useLocation()

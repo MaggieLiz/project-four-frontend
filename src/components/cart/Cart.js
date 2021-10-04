@@ -16,6 +16,7 @@ function Cart() {
         setIsEmpty(!isEmpty)
     }
     getCart()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const removeFromCart = (itemId) => {
