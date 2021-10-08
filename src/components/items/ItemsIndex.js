@@ -68,7 +68,7 @@ function ItemsIndex() {
     { value: 'west', label: 'West Ham United Football Club' },
     { value: 'wolverhampton', label: 'Wolverhampton Football Club' }
   ]
-
+  // * SEARCH by TEAM
   const handleTeamSearch = (e) => {
     setSearchValue(e.value)
     // const selectedItems = selected ? selected.value : []
